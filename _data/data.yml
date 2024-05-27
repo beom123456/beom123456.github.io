@@ -30,9 +30,9 @@ sidebar:
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: programLanguages
       info:
-        - idiom: English
+        - idiom: JAVA
           level: Native
 
         - idiom: French
@@ -56,12 +56,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      <h2>"28살 신입 백엔드 개발자 박진범"</h2>
+      <p><h4>안녕하세요 신입 백엔드 개발자가 되고싶은 박진범 입니다.</h4></p>
+      <br>
+      군생활 중 답답한 홈페이지
 education:
     title: Education
     info:
