@@ -109,8 +109,11 @@ projects:
     assignments:
       - title: Shopping Mall
         link: "https://github.com/beom123456/beom123456.shoppingMall.git"
-        image: shoppingMall.png
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        image: "shoppingMall.png"
+        tagline: "담당부분
+                  회원가입/로그인: 사용자의 계정을 관리하고 보안을 유지합니다.
+                  상품등록/관리: 다양한 상품을 등록하고 관리하여 판매합니다.
+                  리뷰등록/삭제/수정: 사용자들의 리뷰를 수집하고 관리하며, 피드백에 따라 리뷰를 수정하거나 삭제합니다."
 
       - title: DevStudio
         link: "#"
