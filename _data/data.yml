@@ -33,25 +33,28 @@ sidebar:
       title: programLanguages
       info:
         - idiom: JAVA
-          level: Native
+          level: 60%
 
-        - idiom: French
-          level: Professional
+        - idiom: SPRING
+          level: 50%
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: HTML 
+          level: 40%
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+        - idiom: css 
+          level: 30%
 
-        - item: Snowboarding
-          link:
+        - idiom: JavaScript 
+          level: 40%
 
-        - item: Cooking
-          link:
+        - idiom: GitHub 
+          level: 30%
+
+        - idiom: MySQL 
+          level: 40%
+
+
+   
 
 career-profile:
     title: ABOUT ME
@@ -69,7 +72,7 @@ career-profile:
 
    
 education:
-    title: 교육
+    title: EDUCATION
     info:
       - degree: 영어학부
         university: 부산외국어대학교
