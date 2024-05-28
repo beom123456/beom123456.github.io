@@ -80,20 +80,20 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: <h4>소대장 / 부중대장</h4>
+      - role: "소대장 / 부중대장"
         time: 2021 - 2023
         details: |
           약 15명의 소대원과 60명의 중대원을 이끌며, 일방적인 소통이 아닌 쌍방향 커뮤니케이션의 중요성을 배울 수 있었습니다.
           <br> 이를 통해 구성원들의 의견을 경청하고, 효과적으로 반영하는 능력을 키울 수 있었습니다.
 
-      - role: <h4>주방 운영 지원</h4>
+      - role: "주방 운영 지원"
         time: 2020 - 2021
         company: chiken Triple
         details: |
           치킨집 주방에서 일하며 뜨거운 기름에서 치킨을 튀기고 신속하게 주문을 처리하는 기술을 익혔습니다.<br>
           협업이 중요하여 동료들과의 원활한 소통을 통해 효율적인 업무 분담을 경험했습니다.
 
-      - role:  <h4>프로젝트</h4>
+      - role:  "프로젝트"
         time: 2024 -
         details: |
           개발 공부를 하며 2개의 프로젝트를 만들었습니다. 1개의 개인 프로젝트를 추가할 예정이며,
@@ -109,7 +109,7 @@ projects:
     assignments:
       - title: Shopping Mall
         link: "https://github.com/beom123456/beom123456.shoppingMall.git"
-        image: shoppingMall.Png
+        image: shoppingMall.png
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
       - title: DevStudio
@@ -124,7 +124,7 @@ skills:
     title: Skills
 
     toolset:
-      - name: JAva
+      - name: JAVA
         level: 60%
 
       - name: Spring
