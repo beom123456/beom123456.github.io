@@ -104,8 +104,7 @@ projects:
       
     assignments:
       - title: board
-        start_date: "2024-03-25"
-        end_date: "2024-04-05"
+        2024-03-25 ~ 2024-04-05
         link: "https://github.com/beom123456/board.git"
         image_link: "assets/images/board.png"
         tagline: |
@@ -114,8 +113,7 @@ projects:
           <p>댓글: 댓글 작성.</p>
           
       - title: Shopping Mall
-        start_date: "2024-05-15"
-        end_date: "2024-06-05"
+        2024-05-15 ~ 2024-06-05
         link: "https://github.com/beom123456/shoppingMallPage.git"
         image_link: "assets/images/shop.png"
         tagline: |
