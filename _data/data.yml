@@ -103,7 +103,7 @@ projects:
       
       
     assignments:
-      - title: board
+      - title: 1.board
         period: "2024-03-25 ~ 2024-04-05"
         link: "https://github.com/beom123456/board.git"
         image_link: "assets/images/board.png"
@@ -111,7 +111,7 @@ projects:
           <p>게시판 프로젝트</p>
         
           
-      - title: Shopping Mall
+      - title: 2.Shopping Mall
         period: "2024-05-15 ~ 2024-06-05"
         link: "https://github.com/beom123456/shoppingMallPage.git"
         image_link: "assets/images/shop.png"
