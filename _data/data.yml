@@ -102,6 +102,14 @@ projects:
     intro: >
       
     assignments:
+    - title: board
+        link: "https://github.com/beom123456/board.git"
+        image_link: "assets/images/board.png"
+        tagline: "
+                  <p>회원가입/로그인: 사용자의 계정을 관리하고 보안을 유지합니다.</p>
+                  <p>댓글: 댓글 작성.</p>
+                  
+
       - title: Shopping Mall
         link: "https://github.com/beom123456/shoppingMallPage.git"
         image_link: "assets/images/shop.png"
