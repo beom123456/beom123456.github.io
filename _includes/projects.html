@@ -21,14 +21,12 @@
       <h3>{{ project.title }}</h3>
       <br>
       {% if project.image_link %}
-      <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
-        <a href="{{ project.link }}" target="_blank">
-          <img src="{{ project.image_link }}" alt="{{ project.title }}" class="project-image" width="300" height="150">
+        <a href="{{ project.link }}" target="_blank" class="image-container">
+          <img src="{{ project.image_link }}" alt="{{ project.title }}" class="project-image" width="300" height="150" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
           <span class="overlay"></span>
         </a>
-      </div>
       {% else %}
-      {{ project.title }}
+        {{ project.title }}
       {% endif %}
     </span>
 
@@ -42,13 +40,13 @@
 {% endif %}
 
 <script>
-function showOverlay(container) {
-  var overlay = container.querySelector('.overlay');
+function showOverlay(image) {
+  var overlay = image.nextElementSibling;
   overlay.style.opacity = '1';
 }
 
-function hideOverlay(container) {
-  var overlay = container.querySelector('.overlay');
+function hideOverlay(image) {
+  var overlay = image.nextElementSibling;
   overlay.style.opacity = '0';
 }
 </script>
