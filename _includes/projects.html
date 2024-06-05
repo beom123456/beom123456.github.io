@@ -44,11 +44,11 @@
 <script>
   function showOverlay(container) {
     var overlay = container.querySelector('.overlay');
-    overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'; // 투명한 검정색 오버레이
+    overlay.style.opacity = '0.5'; // 투명도 조절
   }
   
   function hideOverlay(container) {
     var overlay = container.querySelector('.overlay');
-    overlay.style.backgroundColor = 'transparent'; // 투명한 오버레이를 숨김
+    overlay.style.opacity = '0'; // 오버레이 숨김
   }
 </script>
