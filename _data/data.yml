@@ -140,15 +140,4 @@ skills:
       - name: MySQL
         level: 50%
 
- strengths:
-      - skill: Communication
-        level: High
-        description: Excellent verbal and written communication skills acquired through various experiences such as leadership roles and teamwork.
-
-      - skill: Problem Solving
-        level: High
-        description: Proven ability to analyze complex problems and develop effective solutions, demonstrated through project work and academic achievements.
-
-      - skill: Adaptability
-        level: High
-        description: Flexible and adaptable in challenging environments, able to quickly learn new technologies and methodologies to meet project requirements.
+ 
