@@ -40,13 +40,16 @@
 {% endif %}
 
 <script>
-function showOverlay(image) {
-  var overlay = image.nextElementSibling;
-  overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'; // 투명한 검정색 오버레이
-}
-
-function hideOverlay(image) {
-  var overlay = image.nextElementSibling;
-  overlay.style.backgroundColor = 'transparent'; // 투명한 오버레이를 숨김
-}
-</script>
+  function showOverlay(image) {
+    var parentContainer = image.parentNode;
+    var overlay = parentContainer.querySelector('.overlay');
+    overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'; // 투명한 검정색 오버레이
+  }
+  
+  function hideOverlay(image) {
+    var parentContainer = image.parentNode;
+    var overlay = parentContainer.querySelector('.overlay');
+    overlay.style.backgroundColor = 'transparent'; // 투명한 오버레이를 숨김
+  }
+  </script>
+  
