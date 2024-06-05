@@ -21,12 +21,14 @@
       <h3>{{ project.title }}</h3>
       <br>
       {% if project.image_link %}
-        <a href="{{ project.link }}" target="_blank" class="image-container">
-          <img src="{{ project.image_link }}" alt="{{ project.title }}" class="project-image" width="300" height="150" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+      <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+        <a href="{{ project.link }}" target="_blank">
+          <img src="{{ project.image_link }}" alt="{{ project.title }}" class="project-image" width="300" height="150">
           <span class="overlay"></span>
         </a>
+      </div>
       {% else %}
-        {{ project.title }}
+      {{ project.title }}
       {% endif %}
     </span>
 
@@ -40,16 +42,13 @@
 {% endif %}
 
 <script>
-  function showOverlay(image) {
-    var parentContainer = image.parentNode;
-    var overlay = parentContainer.querySelector('.overlay');
+  function showOverlay(container) {
+    var overlay = container.querySelector('.overlay');
     overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'; // 투명한 검정색 오버레이
   }
   
-  function hideOverlay(image) {
-    var parentContainer = image.parentNode;
-    var overlay = parentContainer.querySelector('.overlay');
+  function hideOverlay(container) {
+    var overlay = container.querySelector('.overlay');
     overlay.style.backgroundColor = 'transparent'; // 투명한 오버레이를 숨김
   }
-  </script>
-  
+</script>
