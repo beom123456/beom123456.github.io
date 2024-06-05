@@ -23,7 +23,7 @@
         <br>
         {% if project.image_link %}
           <a href="{{ project.link }}" target="_blank">
-            <img src="{{ project.image_link }}" alt="{{ project.title }}" class="project-image" width="300" height="150">
+            <img src="{{ project.image_link }}" alt="{{ project.title }}" class="project-image" width="300" height="150" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
             <span class="overlay"></span> <!-- 추가 -->
           </a>
         {% else %}
@@ -40,3 +40,15 @@
 
 </section><!--//section-->
 {% endif %}
+
+<script>
+    function showOverlay(image) {
+        var overlay = image.nextElementSibling;
+        overlay.style.opacity = '1';
+    }
+
+    function hideOverlay(image) {
+        var overlay = image.nextElementSibling;
+        overlay.style.opacity = '0';
+    }
+</script>
