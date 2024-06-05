@@ -119,7 +119,7 @@ projects:
           <p>쇼핑몰 프로젝트</p>
       
       - title: 개인 프로젝트 / API를 활용한 로그인/ 주문 (개발 중)
-        period: "진행 중"
+        period: ""
         link: "#"
         tagline: ""
 
