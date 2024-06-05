@@ -17,6 +17,8 @@ $sidebar-order: 2;
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
 
+/* CSS 파일에 추가 */
+
 .project-title {
     position: relative;
     display: inline-block;
@@ -47,3 +49,4 @@ $sidebar-order: 2;
     font-size: 24px;
     font-weight: bold;
 }
+
