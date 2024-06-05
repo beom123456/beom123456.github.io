@@ -1,7 +1,6 @@
 {% assign projects = site.data.data.projects %}
 {% if projects %}
 <section class="section projects-section">
-
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -12,43 +11,44 @@
 
   {% if projects.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
+    <p>{{ projects.intro }}</p>
   </div><!--//intro-->
   {% endif %}
 
   {% for project in projects.assignments %}
-    <div class="item">
-      <span class="project-title">
-        <h3>{{ project.title }}</h3>
-        <br>
-        {% if project.image_link %}
-          <div class="image-container">
-            <a href="{{ project.link }}" target="_blank">
-              <img src="{{ project.image_link }}" alt="{{ project.title }}" class="project-image" width="300" height="150">
-              <span class="overlay" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)"></span>
-            </a>
-          </div>
-        {% else %}
-          {{ project.title }}
-        {% endif %}
-      </span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+  <div class="item">
+    <span class="project-title">
+      <h3>{{ project.title }}</h3>
+      <br>
+      {% if project.image_link %}
+      <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+        <a href="{{ project.link }}" target="_blank">
+          <img src="{{ project.image_link }}" alt="{{ project.title }}" class="project-image" width="300" height="150">
+          <span class="overlay"></span>
+        </a>
+      </div>
+      {% else %}
+      {{ project.title }}
       {% endif %}
+    </span>
 
-    </div><!--//item-->
+    {% if project.tagline %}
+    - <span class="project-tagline">{{ project.tagline }}</span>
+    {% endif %}
+
+  </div><!--//item-->
   {% endfor %}
-
 </section><!--//section-->
 {% endif %}
 
 <script>
-    function showOverlay(overlay) {
-        overlay.style.opacity = '1';
-    }
+function showOverlay(container) {
+  var overlay = container.querySelector('.overlay');
+  overlay.style.opacity = '1';
+}
 
-    function hideOverlay(overlay) {
-        overlay.style.opacity = '0';
-    }
+function hideOverlay(container) {
+  var overlay = container.querySelector('.overlay');
+  overlay.style.opacity = '0';
+}
 </script>
