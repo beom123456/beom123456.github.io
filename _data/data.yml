@@ -112,7 +112,7 @@ projects:
         
           
       - title: 2.Shopping Mall
-        period: "2024-05-15 ~ 2024-06-05"
+        period: "2024-05-03 ~ 2024-06-05"
         link: "https://github.com/beom123456/shoppingMallPage.git"
         image_link: "assets/images/shop.png"
         tagline: |
