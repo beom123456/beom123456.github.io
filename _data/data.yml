@@ -103,7 +103,7 @@ projects:
       
       
     assignments:
-      - title: 1.board
+      - title: 1.board (spring Legacy)
         period: "2024-03-25 ~ 2024-04-05"
         link: "https://github.com/beom123456/board.git"
         image_link: "assets/images/board.png"
